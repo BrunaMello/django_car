@@ -1,3 +1,5 @@
+# Add as configuracoes da aplicacao cars
+
 from django.apps import AppConfig
 
 
