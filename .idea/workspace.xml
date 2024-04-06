@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="038 - Configurações adicionais do nosso projeto">
-      <change afterPath="$PROJECT_DIR$/cars/migrations/0002_brand_alter_car_brand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ffc92d1-edf8-4d9c-a5e4-4c7c5326f2f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ffc92d1-edf8-4d9c-a5e4-4c7c5326f2f2.xml" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="039 - Criando modelo e admin de marcas (ForeignKey)">
+      <change afterPath="$PROJECT_DIR$/cars/migrations/0003_car_photo_car_plate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -99,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712398546033</updated>
-      <workItem from="1712398546777" duration="6150000" />
+      <workItem from="1712398546777" duration="6883000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -157,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712404019923</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="039 - Criando modelo e admin de marcas (ForeignKey)">
+      <option name="closed" value="true" />
+      <created>1712405028083</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712405028083</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +191,7 @@
     <MESSAGE value="36 - Criando tabelas no Banco de Dados" />
     <MESSAGE value="037 - Configurando o Admin do nosso model (Car)" />
     <MESSAGE value="038 - Configurações adicionais do nosso projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="038 - Configurações adicionais do nosso projeto" />
+    <MESSAGE value="039 - Criando modelo e admin de marcas (ForeignKey)" />
+    <option name="LAST_COMMIT_MESSAGE" value="039 - Criando modelo e admin de marcas (ForeignKey)" />
   </component>
 </project>
