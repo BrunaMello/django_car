@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="034 - Comando makemigration e migrate + Acessando o Admin do Django">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="035 - Criando nosso primeiro modelo (Car)">
+      <change afterPath="$PROJECT_DIR$/cars/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712398546033</updated>
-      <workItem from="1712398546777" duration="3945000" />
+      <workItem from="1712398546777" duration="4292000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -122,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712401050822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="035 - Criando nosso primeiro modelo (Car)">
+      <option name="closed" value="true" />
+      <created>1712402549652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712402549652</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +150,7 @@
     <MESSAGE value="030 - Criando nossa primeira App no Django" />
     <MESSAGE value="031 - Entendendo Apps e Camadas no Django" />
     <MESSAGE value="034 - Comando makemigration e migrate + Acessando o Admin do Django" />
-    <option name="LAST_COMMIT_MESSAGE" value="034 - Comando makemigration e migrate + Acessando o Admin do Django" />
+    <MESSAGE value="035 - Criando nosso primeiro modelo (Car)" />
+    <option name="LAST_COMMIT_MESSAGE" value="035 - Criando nosso primeiro modelo (Car)" />
   </component>
 </project>
