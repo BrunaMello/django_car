@@ -7,7 +7,7 @@ from cars.models import Car
 #listar na view do admin do sistema
 class CarAdmin(admin.ModelAdmin):
     list_display = ('model', 'brand', 'factory_year', 'model_year', 'value')
-    search_fields = ('model',)
+    search_fields = ('model', 'brand')
 
 #registrar as tabelas e as configuracoes
 admin.site.register(Car, CarAdmin)
