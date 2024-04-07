@@ -5,4 +5,7 @@ from django.shortcuts import render
 
 
 def cars_view(request):
-    return HttpResponse("Hello, world. You're at the cars view.")
+    return render(
+        request=request,
+        template_name='cars.html'
+    )
