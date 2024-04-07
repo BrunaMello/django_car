@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="039 - Criando modelo e admin de marcas (ForeignKey)">
-      <change afterPath="$PROJECT_DIR$/cars/migrations/0003_car_photo_car_plate.py" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="040 - Armazenando imagens dos carros">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ffc92d1-edf8-4d9c-a5e4-4c7c5326f2f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ffc92d1-edf8-4d9c-a5e4-4c7c5326f2f2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f02d7558-c5fc-434c-80aa-239132edc66c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f02d7558-c5fc-434c-80aa-239132edc66c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +21,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BrunaMello&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BrunaMello/django_car.git&quot;,
+    &quot;accountId&quot;: &quot;1722fe0c-bc88-4e55-b94d-7586ea273b32&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2eis4yjXfi2KSTS6qnvLH3y6bGJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,28 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Django Server.app.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Django Server.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="Python.DjangoServer" factoryName="Django server">
       <module name="app" />
@@ -99,7 +109,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712398546033</updated>
-      <workItem from="1712398546777" duration="6883000" />
+      <workItem from="1712398546777" duration="7393000" />
+      <workItem from="1712477865544" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -165,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712405028083</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="040 - Armazenando imagens dos carros">
+      <option name="closed" value="true" />
+      <created>1712405774158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712405774158</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +211,7 @@
     <MESSAGE value="037 - Configurando o Admin do nosso model (Car)" />
     <MESSAGE value="038 - Configurações adicionais do nosso projeto" />
     <MESSAGE value="039 - Criando modelo e admin de marcas (ForeignKey)" />
-    <option name="LAST_COMMIT_MESSAGE" value="039 - Criando modelo e admin de marcas (ForeignKey)" />
+    <MESSAGE value="040 - Armazenando imagens dos carros" />
+    <option name="LAST_COMMIT_MESSAGE" value="040 - Armazenando imagens dos carros" />
   </component>
 </project>
