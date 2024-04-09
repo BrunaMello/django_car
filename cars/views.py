@@ -8,7 +8,7 @@ from cars.models import Car
 def cars_view(request):
     # orm fazendo a requisicao no banco de dados igual o select
     #buscando todos os carros disponiveis
-    cars = Car.objects.all()
+    cars = Car.objects.filter(model__contains='Opala')
 
     return render(
         request=request,

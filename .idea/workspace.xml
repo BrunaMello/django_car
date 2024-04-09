@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="046 - Linguagem de Templates do Django">
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="047 - Buscando carros no Banco de Dados com Django ORM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/templates/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars/templates/cars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,7 @@
       <updated>1712398546033</updated>
       <workItem from="1712398546777" duration="7393000" />
       <workItem from="1712477865544" duration="3334000" />
-      <workItem from="1712683238181" duration="715000" />
+      <workItem from="1712683238181" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -221,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712480772829</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="047 - Buscando carros no Banco de Dados com Django ORM">
+      <option name="closed" value="true" />
+      <created>1712684089457</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712684089457</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +259,7 @@
     <MESSAGE value="043 - Organizando nossa View de Carros" />
     <MESSAGE value="045 - Retornando Templates para o usuário" />
     <MESSAGE value="046 - Linguagem de Templates do Django" />
-    <option name="LAST_COMMIT_MESSAGE" value="046 - Linguagem de Templates do Django" />
+    <MESSAGE value="047 - Buscando carros no Banco de Dados com Django ORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="047 - Buscando carros no Banco de Dados com Django ORM" />
   </component>
 </project>
