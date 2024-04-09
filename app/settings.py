@@ -55,7 +55,7 @@ ROOT_URLCONF = 'app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'cars/templates']
+        'DIRS': ['app/templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {

@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="048 - Fazendo consultas com Filter()">
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="050 - Filtrando carros com os parâmetros do usuário">
+      <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cars/Fiat-Marea_1996_Sedans_163125739_2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/templates/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars/templates/cars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +65,7 @@
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/brunamello/PycharmProjects/app/cars/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +81,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cars/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cars" />
     </key>
@@ -123,7 +133,7 @@
       <updated>1712398546033</updated>
       <workItem from="1712398546777" duration="7393000" />
       <workItem from="1712477865544" duration="3334000" />
-      <workItem from="1712683238181" duration="3558000" />
+      <workItem from="1712683238181" duration="4944000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -237,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712684958965</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="050 - Filtrando carros com os parâmetros do usuário">
+      <option name="closed" value="true" />
+      <created>1712687095973</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712687095973</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +288,7 @@
     <MESSAGE value="046 - Linguagem de Templates do Django" />
     <MESSAGE value="047 - Buscando carros no Banco de Dados com Django ORM" />
     <MESSAGE value="048 - Fazendo consultas com Filter()" />
-    <option name="LAST_COMMIT_MESSAGE" value="048 - Fazendo consultas com Filter()" />
+    <MESSAGE value="050 - Filtrando carros com os parâmetros do usuário" />
+    <option name="LAST_COMMIT_MESSAGE" value="050 - Filtrando carros com os parâmetros do usuário" />
   </component>
 </project>
