@@ -5,8 +5,11 @@
     <form method="post" enctype="multipart/form-data">
     {# importante colocar a tag abaixo para seguranca em formularios #}
         {% csrf_token %}
+    <table>
+        {{ new_car_form.as_table }}
+    </table>
 
-        {{ new_car_form }}
+    <input type="submit" value="Cadastrar" class="btn btn-primary">
     </form>
 
 {% endblock %}
