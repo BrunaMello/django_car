@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from cars.models import Car
-from cars.forms import CarForm
+from cars.forms import CarModelForm
 
 
 # Create your views here. Todas as views, tem a logica que precisa aplicar para a visualizacao
@@ -28,13 +28,13 @@ def cars_view(request):
 
 def new_car_view(request):
     if request.method == 'POST':
-        new_car_form = CarForm(request.POST, request.FILES)
+        new_car_form = CarModelForm(request.POST, request.FILES)
         if new_car_form.is_valid():
             new_car_form.save()
             return redirect('cars_list')
 
     else:
-        new_car_form = CarForm()
+        new_car_form = CarModelForm()
     return render(
         request=request,
         template_name='new_car.html',
