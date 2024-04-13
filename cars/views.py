@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from cars.models import Car
+from cars.forms import CarForm
 
 
 # Create your views here. Todas as views, tem a logica que precisa aplicar para a visualizacao
@@ -22,4 +23,14 @@ def cars_view(request):
         request=request,
         template_name='cars.html',
         context={'cars': cars}
+    )
+
+
+def new_car_view(request):
+    new_car_form = CarForm()
+
+    return render(
+        request=request,
+        template_name='new_car.html',
+        context={'new_car_form': new_car_form}
     )

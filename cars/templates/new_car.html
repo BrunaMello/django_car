@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <form method="post" enctype="multipart/form-data">
+    {# importante colocar a tag abaixo para seguranca em formularios #}
+        {% csrf_token %}
+
+        {{ new_car_form }}
+    </form>
+
+{% endblock %}
