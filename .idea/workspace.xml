@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="058 - Criando validações">
-      <change afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="060 - Criando nossa rota de registro de usuários">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +132,7 @@
       <workItem from="1712477865544" duration="3334000" />
       <workItem from="1712683238181" duration="5468000" />
       <workItem from="1713002572973" duration="4919000" />
-      <workItem from="1713082788283" duration="1176000" />
+      <workItem from="1713082788283" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -301,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713082895821</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="060 - Criando nossa rota de registro de usuários">
+      <option name="closed" value="true" />
+      <created>1713084003016</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1713084003016</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +341,7 @@
     <MESSAGE value="056 - Finalizando o cadastro de um novo carro" />
     <MESSAGE value="057 - Migrando para ModelForm" />
     <MESSAGE value="058 - Criando validações" />
-    <option name="LAST_COMMIT_MESSAGE" value="058 - Criando validações" />
+    <MESSAGE value="060 - Criando nossa rota de registro de usuários" />
+    <option name="LAST_COMMIT_MESSAGE" value="060 - Criando nossa rota de registro de usuários" />
   </component>
 </project>
