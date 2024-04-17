@@ -3,13 +3,13 @@
 {% block content %}
 
     <form method="post" enctype="multipart/form-data">
-    {# importante colocar a tag abaixo para seguranca em formularios #}
+        {# importante colocar a tag abaixo para seguranca em formularios #}
         {% csrf_token %}
-    <table>
-        {{ new_car_form.as_table }}
-    </table>
+        <table>
+            {{ form.as_table }}
+        </table>
 
-    <input type="submit" value="Cadastrar" class="btn btn-primary">
+        <input type="submit" value="Cadastrar" class="btn btn-primary">
     </form>
 
 {% endblock %}
