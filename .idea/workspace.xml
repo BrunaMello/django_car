@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="065 - Reescrevendo cars_view (View Base)">
-      <change afterPath="$PROJECT_DIR$/media/cars/Fiat_Oggi_1300_CS_1984.jpg" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="066 - Reescrevendo new_car_view (View Base)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +140,8 @@
       <workItem from="1712683238181" duration="5468000" />
       <workItem from="1713002572973" duration="4919000" />
       <workItem from="1713082788283" duration="4853000" />
-      <workItem from="1713200931224" duration="1791000" />
+      <workItem from="1713200931224" duration="2016000" />
+      <workItem from="1713377956149" duration="1848000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -344,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713202428854</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="066 - Reescrevendo new_car_view (View Base)">
+      <option name="closed" value="true" />
+      <created>1713203275937</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713203275937</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +370,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="030 - Criando nossa primeira App no Django" />
     <MESSAGE value="031 - Entendendo Apps e Camadas no Django" />
     <MESSAGE value="034 - Comando makemigration e migrate + Acessando o Admin do Django" />
     <MESSAGE value="035 - Criando nosso primeiro modelo (Car)" />
@@ -388,6 +394,7 @@
     <MESSAGE value="062 - Criando a tela de login" />
     <MESSAGE value="063 - Ajustando o menu de opções" />
     <MESSAGE value="065 - Reescrevendo cars_view (View Base)" />
-    <option name="LAST_COMMIT_MESSAGE" value="065 - Reescrevendo cars_view (View Base)" />
+    <MESSAGE value="066 - Reescrevendo new_car_view (View Base)" />
+    <option name="LAST_COMMIT_MESSAGE" value="066 - Reescrevendo new_car_view (View Base)" />
   </component>
 </project>

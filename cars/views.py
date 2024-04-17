@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.views import View
+from django.views.generic import ListView
 
 from cars.forms import CarModelForm
 from cars.models import Car
@@ -7,25 +8,17 @@ from cars.models import Car
 
 # Create your views here. Todas as views, tem a logica que precisa aplicar para a visualizacao
 
-class CarsView(View):
+class CarListView(ListView):
+    model = Car
+    template_name = 'cars.html'
+    context_object_name = 'cars'
 
-    def get(self, request):
-        # orm fazendo a requisicao no banco de dados igual o select
-        # buscando todos os carros disponiveis
-        cars = Car.objects.all().order_by('model')
-
-        # verificar se tem busca especifica
-        search = request.GET.get('search')
-
-        # se sim entra no if
+    def get_queryset(self):
+        cars = super().get_queryset().order_by('model')
+        search = self.request.GET.get('search')
         if search:
-            cars = Car.objects.filter(model__icontains=search).order_by('model')
-
-        return render(
-            request=request,
-            template_name='cars.html',
-            context={'cars': cars}
-        )
+            cars = cars.filter(model__icontains=search)
+        return cars
 
 
 class NewCarView(View):
