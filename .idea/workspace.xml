@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="069 - Utilizando DetailView (Generic Views)">
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="070 - Melhorando acesso a DetailView">
+      <change afterPath="$PROJECT_DIR$/cars/templates/car_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/templates/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars/templates/cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/templates/car_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars/templates/car_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +144,7 @@
       <workItem from="1713082788283" duration="4853000" />
       <workItem from="1713200931224" duration="2016000" />
       <workItem from="1713377956149" duration="3758000" />
-      <workItem from="1713461645653" duration="435000" />
+      <workItem from="1713461645653" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -375,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713381892763</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="070 - Melhorando acesso a DetailView">
+      <option name="closed" value="true" />
+      <created>1713462166067</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713462166067</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +405,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="36 - Criando tabelas no Banco de Dados" />
     <MESSAGE value="037 - Configurando o Admin do nosso model (Car)" />
     <MESSAGE value="038 - Configurações adicionais do nosso projeto" />
     <MESSAGE value="039 - Criando modelo e admin de marcas (ForeignKey)" />
@@ -419,6 +429,7 @@
     <MESSAGE value="067 - Utilizando ListView (Generic Views)" />
     <MESSAGE value="068 - Utilizando CreateView (Generic Views)" />
     <MESSAGE value="069 - Utilizando DetailView (Generic Views)" />
-    <option name="LAST_COMMIT_MESSAGE" value="069 - Utilizando DetailView (Generic Views)" />
+    <MESSAGE value="070 - Melhorando acesso a DetailView" />
+    <option name="LAST_COMMIT_MESSAGE" value="070 - Melhorando acesso a DetailView" />
   </component>
 </project>
