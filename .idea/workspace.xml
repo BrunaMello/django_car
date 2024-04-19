@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="078 - Atualizando nosso inventário com signals">
-      <change afterPath="$PROJECT_DIR$/cars/migrations/0005_car_bio.py" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="080 - Criando bio dos carros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/templates/car_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars/templates/car_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/signals.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,7 @@
       <workItem from="1713461645653" duration="1615000" />
       <workItem from="1713463292895" duration="928000" />
       <workItem from="1713464234209" duration="1699000" />
-      <workItem from="1713547974838" duration="4877000" />
+      <workItem from="1713547974838" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -437,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713552525443</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="080 - Criando bio dos carros">
+      <option name="closed" value="true" />
+      <created>1713554745775</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1713554745775</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="046 - Linguagem de Templates do Django" />
     <MESSAGE value="047 - Buscando carros no Banco de Dados com Django ORM" />
     <MESSAGE value="048 - Fazendo consultas com Filter()" />
     <MESSAGE value="050 - Filtrando carros com os parâmetros do usuário" />
@@ -481,6 +485,7 @@
     <MESSAGE value="076 - Utilizando signals na prática" />
     <MESSAGE value="077 - Criando nosso inventário" />
     <MESSAGE value="078 - Atualizando nosso inventário com signals" />
-    <option name="LAST_COMMIT_MESSAGE" value="078 - Atualizando nosso inventário com signals" />
+    <MESSAGE value="080 - Criando bio dos carros" />
+    <option name="LAST_COMMIT_MESSAGE" value="080 - Criando bio dos carros" />
   </component>
 </project>
