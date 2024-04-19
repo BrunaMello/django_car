@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="074 - Autorização das Views">
-      <change afterPath="$PROJECT_DIR$/cars/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cars/projecao-nova-chevrolet-s10-2024-por-jonathan-machado.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cars/projecao-nova-chevrolet-s10-2024-por-jonathan-machado_JfYH6DV.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cars/projecao-nova-chevrolet-s10-2024-por-jonathan-machado_m3PJHPB.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="076 - Utilizando signals na prática">
+      <change beforePath="$PROJECT_DIR$/cars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +143,7 @@
       <workItem from="1713461645653" duration="1615000" />
       <workItem from="1713463292895" duration="928000" />
       <workItem from="1713464234209" duration="1699000" />
-      <workItem from="1713547974838" duration="1260000" />
+      <workItem from="1713547974838" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -416,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713464476295</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="076 - Utilizando signals na prática">
+      <option name="closed" value="true" />
+      <created>1713549299188</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713549299188</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +436,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="040 - Armazenando imagens dos carros" />
     <MESSAGE value="043 - Organizando nossa View de Carros" />
     <MESSAGE value="045 - Retornando Templates para o usuário" />
     <MESSAGE value="046 - Linguagem de Templates do Django" />
@@ -460,6 +460,7 @@
     <MESSAGE value="071 - Utilizando UpdateView (Generic Views)" />
     <MESSAGE value="072 - Utilizando DeleteView (Generic Views)" />
     <MESSAGE value="073 - Ajustando os templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="073 - Ajustando os templates" />
+    <MESSAGE value="076 - Utilizando signals na prática" />
+    <option name="LAST_COMMIT_MESSAGE" value="076 - Utilizando signals na prática" />
   </component>
 </project>
