@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="083 - Ajuste para carros sem foto">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai_api/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/openai_api/client.py" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="084 - Gerando arquivo de dependências do projeto">
+      <change afterPath="$PROJECT_DIR$/media/cars/projecao-nova-chevrolet-s10-2024-por-jonathan-machado_MNK9a76.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b623e921-2e4c-4ff0-a076-e34320d92f22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b623e921-2e4c-4ff0-a076-e34320d92f22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +84,8 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+      &quot;sqlite&quot;,
+      &quot;postgresql&quot;
     ]
   }
 }</component>
@@ -145,7 +151,10 @@
       <workItem from="1713463292895" duration="928000" />
       <workItem from="1713464234209" duration="1699000" />
       <workItem from="1713547974838" duration="7877000" />
-      <workItem from="1713633682283" duration="740000" />
+      <workItem from="1713633682283" duration="3210000" />
+      <workItem from="1713637964989" duration="1003000" />
+      <workItem from="1713639325275" duration="503000" />
+      <workItem from="1713639832451" duration="1211000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -467,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713634123846</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="084 - Gerando arquivo de dependências do projeto">
+      <option name="closed" value="true" />
+      <created>1713634511447</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1713634511447</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +503,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="053 - Configurando o base template" />
     <MESSAGE value="055 - Criando nosso primeiro Form" />
     <MESSAGE value="056 - Finalizando o cadastro de um novo carro" />
     <MESSAGE value="057 - Migrando para ModelForm" />
@@ -511,6 +527,7 @@
     <MESSAGE value="081 - Gerando bio automática para os carros" />
     <MESSAGE value="082 - Integrando Django com a Api da OpenIA (ChatGPT)" />
     <MESSAGE value="083 - Ajuste para carros sem foto" />
-    <option name="LAST_COMMIT_MESSAGE" value="083 - Ajuste para carros sem foto" />
+    <MESSAGE value="084 - Gerando arquivo de dependências do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="084 - Gerando arquivo de dependências do projeto" />
   </component>
 </project>
