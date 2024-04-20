@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="082 - Integrando Django com a Api da OpenIA (ChatGPT)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/templates/car_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars/templates/car_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/templates/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars/templates/cars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="083 - Ajuste para carros sem foto">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai_api/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/openai_api/client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,7 @@
       <workItem from="1713463292895" duration="928000" />
       <workItem from="1713464234209" duration="1699000" />
       <workItem from="1713547974838" duration="7877000" />
-      <workItem from="1713633682283" duration="373000" />
+      <workItem from="1713633682283" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -461,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713557315481</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="083 - Ajuste para carros sem foto">
+      <option name="closed" value="true" />
+      <created>1713634123846</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1713634123846</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="050 - Filtrando carros com os parâmetros do usuário" />
     <MESSAGE value="053 - Configurando o base template" />
     <MESSAGE value="055 - Criando nosso primeiro Form" />
     <MESSAGE value="056 - Finalizando o cadastro de um novo carro" />
@@ -505,6 +510,7 @@
     <MESSAGE value="080 - Criando bio dos carros" />
     <MESSAGE value="081 - Gerando bio automática para os carros" />
     <MESSAGE value="082 - Integrando Django com a Api da OpenIA (ChatGPT)" />
-    <option name="LAST_COMMIT_MESSAGE" value="082 - Integrando Django com a Api da OpenIA (ChatGPT)" />
+    <MESSAGE value="083 - Ajuste para carros sem foto" />
+    <option name="LAST_COMMIT_MESSAGE" value="083 - Ajuste para carros sem foto" />
   </component>
 </project>
