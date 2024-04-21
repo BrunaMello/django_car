@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="088 - Conectando Django no PostgreSQL">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/73161f3f-9a97-431e-bfe7-3fd17bd80f91.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/73161f3f-9a97-431e-bfe7-3fd17bd80f91.xml" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="100 - Configurando o ambiente no nosso servidor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +151,7 @@
       <workItem from="1713639325275" duration="503000" />
       <workItem from="1713639832451" duration="2047000" />
       <workItem from="1713689341991" duration="3206000" />
+      <workItem from="1713694301672" duration="910000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -488,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713641138692</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="100 - Configurando o ambiente no nosso servidor">
+      <option name="closed" value="true" />
+      <created>1713694525052</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1713694525052</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="056 - Finalizando o cadastro de um novo carro" />
     <MESSAGE value="057 - Migrando para ModelForm" />
     <MESSAGE value="058 - Criando validações" />
     <MESSAGE value="060 - Criando nossa rota de registro de usuários" />
@@ -532,6 +540,7 @@
     <MESSAGE value="083 - Ajuste para carros sem foto" />
     <MESSAGE value="084 - Gerando arquivo de dependências do projeto" />
     <MESSAGE value="088 - Conectando Django no PostgreSQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="088 - Conectando Django no PostgreSQL" />
+    <MESSAGE value="100 - Configurando o ambiente no nosso servidor" />
+    <option name="LAST_COMMIT_MESSAGE" value="100 - Configurando o ambiente no nosso servidor" />
   </component>
 </project>
