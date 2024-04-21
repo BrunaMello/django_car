@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="084 - Gerando arquivo de dependências do projeto">
-      <change afterPath="$PROJECT_DIR$/media/cars/projecao-nova-chevrolet-s10-2024-por-jonathan-machado_MNK9a76.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b623e921-2e4c-4ff0-a076-e34320d92f22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b623e921-2e4c-4ff0-a076-e34320d92f22.xml" afterDir="false" />
+    <list default="true" id="84d2a04b-e79b-422b-ad30-0cb70d751dd4" name="Changes" comment="088 - Conectando Django no PostgreSQL">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/73161f3f-9a97-431e-bfe7-3fd17bd80f91.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/73161f3f-9a97-431e-bfe7-3fd17bd80f91.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +149,8 @@
       <workItem from="1713633682283" duration="3210000" />
       <workItem from="1713637964989" duration="1003000" />
       <workItem from="1713639325275" duration="503000" />
-      <workItem from="1713639832451" duration="1211000" />
+      <workItem from="1713639832451" duration="2047000" />
+      <workItem from="1713689341991" duration="3206000" />
     </task>
     <task id="LOCAL-00001" summary="030 - Criando nossa primeira App no Django">
       <option name="closed" value="true" />
@@ -484,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713634511447</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="088 - Conectando Django no PostgreSQL">
+      <option name="closed" value="true" />
+      <created>1713641138692</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1713641138692</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +507,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="055 - Criando nosso primeiro Form" />
     <MESSAGE value="056 - Finalizando o cadastro de um novo carro" />
     <MESSAGE value="057 - Migrando para ModelForm" />
     <MESSAGE value="058 - Criando validações" />
@@ -528,6 +531,7 @@
     <MESSAGE value="082 - Integrando Django com a Api da OpenIA (ChatGPT)" />
     <MESSAGE value="083 - Ajuste para carros sem foto" />
     <MESSAGE value="084 - Gerando arquivo de dependências do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="084 - Gerando arquivo de dependências do projeto" />
+    <MESSAGE value="088 - Conectando Django no PostgreSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="088 - Conectando Django no PostgreSQL" />
   </component>
 </project>
